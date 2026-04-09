@@ -41,12 +41,14 @@
 
 ### AIエージェント向け（JSON）
 
-`data/` ディレクトリのJSONファイルは、AIエージェントが構造化データとして読み込む用途に最適化されています。
+`data/` ディレクトリのJSONファイルは、Zeimu AI Agent 3互換スキーマ（`industryId`, `industryName`, `source`, `sections.basics|financials|visit|cases`）に準拠しています。AIエージェントが構造化データとして直接読み込めます。
 
 ```bash
-# 例: jqで飲食業のFL比率目安を取得
-cat data/01-food-service.json | jq '.key_metrics[] | select(.name == "FL比率")'
+# 例: jqで飲食業のFL比率関連チェックポイントを取得
+cat data/01-food-service.json | jq '.sections.financials.items[] | select(.title == "FL比率")'
 ```
+
+`zeimuExtensions` フィールドにはZeimu AI独自の補足情報（原典由来ではない独自分析観点）が含まれます。原典由来の情報は `sections` 内に格納されています。
 
 ### プロンプトテンプレート
 
@@ -79,7 +81,7 @@ appendix/     # コンセプト・用語集等
 
 - **資料名**: 『業種別支援の着眼点』～事業性の理解と経営改善の視点～
 - **発行元**: 金融庁
-- **発行日**: 2026年3月
+- **発行日**: 2023年3月公表（2026年3月補足資料を含む公開PDF）
 - **原本URL**: https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html
 - **利用規約**: https://www.fsa.go.jp/rules/
 

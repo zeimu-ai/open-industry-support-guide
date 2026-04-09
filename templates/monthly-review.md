@@ -20,8 +20,12 @@
 freee MCPで当月と前月の試算表（BS/PL）を取得してください。
 
 ### Step 2: 業種別着眼点との照合
-open-industry-support-guide の {業種} データを参照し、
-以下の指標を確認してください:
+以下のファイルを参照してください:
+- 人間向け: industries/{業種ファイル名}.md（例: industries/01-food-service.md）
+- AI向けJSON: data/{業種ファイル名}.json（例: data/01-food-service.json）
+  ※ JSONの sections.financials に経営指標、sections.visit に訪問時チェックポイントがあります
+
+以下の指標を確認してください（原典由来の観点）:
 
 - 原価率（業界目安との比較）
 - FL比率（飲食業の場合）
