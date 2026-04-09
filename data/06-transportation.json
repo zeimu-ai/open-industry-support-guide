@@ -1,0 +1,66 @@
+{
+  "industryId": "transportation",
+  "industryName": "運送業",
+  "source": "金融庁『業種別支援の着眼点』（2023年3月公表、2026年3月補足資料を含む公開PDF P.63-70）https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html",
+  "sections": {
+    "basics": {
+      "title": "基本原則",
+      "items": [
+        {
+          "id": "trans-basics-01",
+          "title": "運送業の特性",
+          "checkpoints": [
+            "車両（トラック等）が利益を稼ぎ出す源泉",
+            "車両の稼働率と燃料費の管理が重要",
+            "2024年問題（時間外労働の上限規制）への対応が喫緊の課題"
+          ],
+          "keyQuestion": "車両の稼働率は十分か？燃料費の管理はできているか？"
+        }
+      ]
+    },
+    "financials": {
+      "title": "決算資料編",
+      "items": [
+        {
+          "id": "trans-fin-01",
+          "title": "売上高・売上原価",
+          "checkpoints": [
+            "車両の稼働率×単価が売上の基本構造",
+            "燃料費・修繕費・リース料の推移に着目",
+            "外注費（傭車費）の割合で自社運行と外注のバランスを把握"
+          ],
+          "relatedFinancial": "売上原価"
+        },
+        {
+          "id": "trans-fin-02",
+          "title": "固定資産台帳",
+          "checkpoints": [
+            "車両の台数・型式・取得年月日を確認",
+            "車両の老朽化と入替計画",
+            "リース資産も含めて確認"
+          ],
+          "keyQuestion": "車両は利益を稼ぎ出す源泉。保有台数と稼働状況は？"
+        }
+      ]
+    },
+    "visit": {
+      "title": "訪問時編",
+      "items": [
+        {
+          "id": "trans-visit-01",
+          "title": "車両稼働状況",
+          "checkpoints": [
+            "保有台数と稼働台数",
+            "ドライバーの確保状況",
+            "荷主との契約形態（専属・スポット）"
+          ],
+          "keyQuestion": "車両とドライバーの稼働状況はどうか？"
+        }
+      ]
+    },
+    "cases": []
+  },
+  "zeimuExtensions": {
+    "note": "以下はZeimu AI独自の補足情報であり、金融庁原典には含まれません"
+  }
+}

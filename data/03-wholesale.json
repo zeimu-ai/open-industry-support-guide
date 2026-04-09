@@ -1,0 +1,21 @@
+{
+  "industryId": "wholesale",
+  "industryName": "卸売業",
+  "source": "金融庁『業種別支援の着眼点』（2023年3月公表、2026年3月補足資料を含む公開PDF P.33-39）https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html",
+  "sections": {
+    "basics": { "title": "基本原則", "items": [
+      { "id": "wholesale-basics-01", "title": "卸売業の特性", "checkpoints": ["流通段階における役割に大きな変化はなく、支援の初動で必要なポイントも大きく変わらない", "具体的で明確な生き残り戦略が見出しにくい業種", "販売向け資産（在庫や倉庫）を駆使して営業マンが売上を稼ぐ事業構造"], "keyQuestion": "業界構造や後継者の問題等を含めた生き残り戦略はあるか？" }
+    ]},
+    "financials": { "title": "決算資料編", "items": [
+      { "id": "wholesale-fin-01", "title": "売上高営業利益率", "checkpoints": ["粗利益率よりも売上高営業利益率に着目", "平均値はあくまでも目安であって判断の基準ではない", "商品の保守・修繕等のサービスが売上・費用に入るかにも留意"], "keyQuestion": "売上高営業利益率の推移や現状の確認がポイント", "relatedFinancial": "営業利益" },
+      { "id": "wholesale-fin-02", "title": "棚卸資産回転日数", "checkpoints": ["棚卸資産÷（売上高÷365日）", "業界平均を把握しつつも目安として使う", "日数（月数）で理解し現場と言語を合わせる"], "keyQuestion": "回転日数と現場感覚との差異は窮境原因を探る切り口", "relatedFinancial": "棚卸資産" },
+      { "id": "wholesale-fin-03", "title": "総資本回転率", "checkpoints": ["全ての資本がどれだけの売上を創出しているか", "自社倉庫の場合は事業性も含めて大切な指標", "経営資源の効率化を図る必要性"], "relatedFinancial": "売上高,総資産" }
+    ]},
+    "visit": { "title": "訪問時編", "items": [
+      { "id": "wholesale-visit-01", "title": "販売先の構成", "checkpoints": ["得意先の上位集中度", "得意先の業種構成と地域構成"], "keyQuestion": "販売先の構成はどうなっているか？" },
+      { "id": "wholesale-visit-02", "title": "仕入先との関係", "checkpoints": ["仕入先にも価格交渉力が乏しいことが多い", "商品の保守・修繕サービスの費用計上方法"], "keyQuestion": "仕入先との価格交渉力はどの程度あるか？" }
+    ]},
+    "cases": []
+  },
+  "zeimuExtensions": { "note": "以下はZeimu AI独自の補足情報であり、金融庁原典には含まれません" }
+}

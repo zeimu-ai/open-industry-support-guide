@@ -1,0 +1,70 @@
+{
+  "industryId": "accommodation",
+  "industryName": "宿泊業",
+  "source": "金融庁『業種別支援の着眼点』（2023年3月公表、2026年3月補足資料を含む公開PDF P.98-108）https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html",
+  "sections": {
+    "basics": {
+      "title": "基本原則",
+      "items": [
+        {
+          "id": "acc-basics-01",
+          "title": "宿泊業の特性",
+          "checkpoints": [
+            "客室稼働率（OCC）と客室単価（ADR）が基本指標",
+            "RevPAR（販売可能客室1室あたりの収入）で総合評価",
+            "インバウンド需要と地域観光資源の影響",
+            "設備産業であり固定費負担が大きい"
+          ],
+          "keyQuestion": "客室稼働率と客室単価のバランスはどうか？"
+        }
+      ]
+    },
+    "financials": {
+      "title": "決算資料編",
+      "items": [
+        {
+          "id": "acc-fin-01",
+          "title": "客室売上",
+          "checkpoints": [
+            "客室稼働率（OCC）= 販売客室数÷販売可能客室数",
+            "客室単価（ADR）= 客室売上÷販売客室数",
+            "RevPAR = OCC × ADR"
+          ],
+          "benchmarks": {
+            "RevPAR": "OCC × ADR で総合評価"
+          },
+          "relatedFinancial": "売上高"
+        },
+        {
+          "id": "acc-fin-02",
+          "title": "費用構造",
+          "checkpoints": [
+            "人件費・水道光熱費・リネン費等の固定費",
+            "設備の減価償却費・修繕費",
+            "OTA（予約サイト）手数料の推移"
+          ],
+          "relatedFinancial": "売上原価"
+        }
+      ]
+    },
+    "visit": {
+      "title": "訪問時編",
+      "items": [
+        {
+          "id": "acc-visit-01",
+          "title": "施設・サービス体制",
+          "checkpoints": [
+            "客室数と施設の老朽化度合い",
+            "従業員数とサービス品質",
+            "予約チャネル（直接予約 vs OTA）の構成"
+          ],
+          "keyQuestion": "施設の競争力と集客力はどうか？"
+        }
+      ]
+    },
+    "cases": []
+  },
+  "zeimuExtensions": {
+    "note": "以下はZeimu AI独自の補足情報であり、金融庁原典には含まれません"
+  }
+}

@@ -2,22 +2,22 @@
 
 **AI活用に積極的な税理士（freee × Claude/ChatGPT ユーザー）向け**
 
-金融庁『業種別支援の着眼点』（全135頁・10業種）をMarkdown + JSON形式に変換したデータセットです。AIエージェントやMCPと組み合わせて、月次面談・経営支援・事業性評価に活用できます。
+金融庁『業種別支援の着眼点』（全135頁・10業種）の要点整理版です。Markdown（人間向け）+ JSON（AIエージェント向け・Agent 3互換スキーマ）の2形式で提供。月次面談・経営支援・事業性評価にAIと組み合わせて活用できます。
 
 ## 対象業種
 
 | # | 業種 | Markdown | JSON | ページ |
 |---|------|----------|------|-------|
 | 1 | 飲食業 | [industries/01-food-service.md](industries/01-food-service.md) | [data/01-food-service.json](data/01-food-service.json) | P.15-23 |
-| 2 | 小売業 | *Phase 2* | *Phase 2* | P.24-32 |
-| 3 | 卸売業 | *Phase 2* | *Phase 2* | P.33-39 |
-| 4 | 建設業 | *Phase 2* | *Phase 2* | P.40-49 |
-| 5 | 製造業 | *Phase 2* | *Phase 2* | P.50-62 |
-| 6 | 運送業 | *Phase 2* | *Phase 2* | P.63-70 |
-| 7 | サービス業 | *Phase 2* | *Phase 2* | P.71-77 |
-| 8 | 医療業（小規模クリニック） | *Phase 2* | *Phase 2* | P.78-85 |
-| 9 | 介護業 | *Phase 2* | *Phase 2* | P.86-97 |
-| 10 | 宿泊業 | *Phase 2* | *Phase 2* | P.98-108 |
+| 2 | 小売業 | [industries/02-retail.md](industries/02-retail.md) | [data/02-retail.json](data/02-retail.json) | P.24-32 |
+| 3 | 卸売業 | [industries/03-wholesale.md](industries/03-wholesale.md) | [data/03-wholesale.json](data/03-wholesale.json) | P.33-39 |
+| 4 | 建設業 | [industries/04-construction.md](industries/04-construction.md) | [data/04-construction.json](data/04-construction.json) | P.40-49 |
+| 5 | 製造業 | [industries/05-manufacturing.md](industries/05-manufacturing.md) | [data/05-manufacturing.json](data/05-manufacturing.json) | P.50-62 |
+| 6 | 運送業 | [industries/06-transportation.md](industries/06-transportation.md) | [data/06-transportation.json](data/06-transportation.json) | P.63-70 |
+| 7 | サービス業 | [industries/07-service.md](industries/07-service.md) | [data/07-service.json](data/07-service.json) | P.71-77 |
+| 8 | 医療業（小規模クリニック） | [industries/08-medical-clinic.md](industries/08-medical-clinic.md) | [data/08-medical-clinic.json](data/08-medical-clinic.json) | P.78-85 |
+| 9 | 介護業 | [industries/09-nursing-care.md](industries/09-nursing-care.md) | [data/09-nursing-care.json](data/09-nursing-care.json) | P.86-97 |
+| 10 | 宿泊業 | [industries/10-accommodation.md](industries/10-accommodation.md) | [data/10-accommodation.json](data/10-accommodation.json) | P.98-108 |
 
 ## 使い方
 

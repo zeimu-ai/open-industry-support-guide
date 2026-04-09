@@ -1,0 +1,66 @@
+{
+  "industryId": "service",
+  "industryName": "サービス業",
+  "source": "金融庁『業種別支援の着眼点』（2023年3月公表、2026年3月補足資料を含む公開PDF P.71-77）https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html",
+  "sections": {
+    "basics": {
+      "title": "基本原則",
+      "items": [
+        {
+          "id": "svc-basics-01",
+          "title": "サービス業の特性",
+          "checkpoints": [
+            "人材が最大の経営資源",
+            "サービスの品質は人に依存するため、人材の確保・育成が事業継続の鍵",
+            "業態が多岐にわたるため、個社の事業モデルの理解が重要"
+          ],
+          "keyQuestion": "人材の確保・育成はどのように行っているか？"
+        }
+      ]
+    },
+    "financials": {
+      "title": "決算資料編",
+      "items": [
+        {
+          "id": "svc-fin-01",
+          "title": "人件費率",
+          "checkpoints": [
+            "売上高に対する人件費の割合が最重要指標",
+            "業態により適正値が大きく異なる",
+            "人件費の内訳（正社員・パート・外注）を把握"
+          ],
+          "relatedFinancial": "給与手当"
+        },
+        {
+          "id": "svc-fin-02",
+          "title": "売上高営業利益率",
+          "checkpoints": [
+            "人件費以外の固定費の割合にも着目",
+            "家賃・リース料等の固定費負担",
+            "業界平均との比較と自社の推移"
+          ],
+          "relatedFinancial": "営業利益"
+        }
+      ]
+    },
+    "visit": {
+      "title": "訪問時編",
+      "items": [
+        {
+          "id": "svc-visit-01",
+          "title": "サービス提供体制",
+          "checkpoints": [
+            "従業員数と配置",
+            "サービスの標準化・マニュアル化の程度",
+            "顧客満足度の把握方法"
+          ],
+          "keyQuestion": "サービス品質の維持・向上のための仕組みはあるか？"
+        }
+      ]
+    },
+    "cases": []
+  },
+  "zeimuExtensions": {
+    "note": "以下はZeimu AI独自の補足情報であり、金融庁原典には含まれません"
+  }
+}

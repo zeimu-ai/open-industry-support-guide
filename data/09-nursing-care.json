@@ -1,0 +1,70 @@
+{
+  "industryId": "nursing-care",
+  "industryName": "介護業",
+  "source": "金融庁『業種別支援の着眼点』（2023年3月公表、2026年3月補足資料を含む公開PDF P.86-97）https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html",
+  "sections": {
+    "basics": {
+      "title": "基本原則",
+      "items": [
+        {
+          "id": "care-basics-01",
+          "title": "介護業の特性",
+          "checkpoints": [
+            "介護報酬制度に基づく収益構造",
+            "利用者数と稼働率が経営の基軸",
+            "人材確保が最大の経営課題",
+            "3年ごとの介護報酬改定の影響"
+          ],
+          "keyQuestion": "利用者数の確保と人材の定着はどうか？"
+        }
+      ]
+    },
+    "financials": {
+      "title": "決算資料編",
+      "items": [
+        {
+          "id": "care-fin-01",
+          "title": "介護事業収入",
+          "checkpoints": [
+            "サービス種別ごとの収入構成",
+            "利用者数×単価×稼働率",
+            "加算の取得状況"
+          ],
+          "relatedFinancial": "売上高"
+        },
+        {
+          "id": "care-fin-02",
+          "title": "人件費率",
+          "checkpoints": [
+            "介護業の人件費率は60-70%が一般的",
+            "職員の離職率と採用コスト",
+            "処遇改善加算の活用状況"
+          ],
+          "benchmarks": {
+            "人件費率目安": "60-70%"
+          },
+          "relatedFinancial": "給与手当"
+        }
+      ]
+    },
+    "visit": {
+      "title": "訪問時編",
+      "items": [
+        {
+          "id": "care-visit-01",
+          "title": "サービス提供体制",
+          "checkpoints": [
+            "介護職員の配置基準の充足",
+            "利用者の要介護度の分布",
+            "地域の競合施設の状況"
+          ],
+          "keyQuestion": "人員配置基準を満たしつつ安定運営できているか？"
+        }
+      ]
+    },
+    "cases": []
+  },
+  "zeimuExtensions": {
+    "note": "以下はZeimu AI独自の補足情報であり、金融庁原典には含まれません"
+  }
+}

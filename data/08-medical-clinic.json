@@ -1,0 +1,66 @@
+{
+  "industryId": "medical-clinic",
+  "industryName": "医療業（小規模クリニック）",
+  "source": "金融庁『業種別支援の着眼点』（2023年3月公表、2026年3月補足資料を含む公開PDF P.78-85）https://www.fsa.go.jp/policy/chuukai/gyousyubetu.html",
+  "sections": {
+    "basics": {
+      "title": "基本原則",
+      "items": [
+        {
+          "id": "med-basics-01",
+          "title": "医療業の特性",
+          "checkpoints": [
+            "診療報酬制度に基づく収益構造",
+            "患者数と診療単価の把握が基本",
+            "地域の人口動態・競合環境の影響が大きい"
+          ],
+          "keyQuestion": "1日あたりの患者数と診療単価を把握しているか？"
+        }
+      ]
+    },
+    "financials": {
+      "title": "決算資料編",
+      "items": [
+        {
+          "id": "med-fin-01",
+          "title": "医業収入",
+          "checkpoints": [
+            "保険診療と自由診療の割合",
+            "診療科目別の収入構成",
+            "患者数×診療単価の推移"
+          ],
+          "relatedFinancial": "売上高"
+        },
+        {
+          "id": "med-fin-02",
+          "title": "医業費用",
+          "checkpoints": [
+            "人件費（医師・看護師・事務）の割合",
+            "医薬品費・材料費の推移",
+            "設備投資（医療機器）の償却負担"
+          ],
+          "relatedFinancial": "売上原価"
+        }
+      ]
+    },
+    "visit": {
+      "title": "訪問時編",
+      "items": [
+        {
+          "id": "med-visit-01",
+          "title": "診療体制",
+          "checkpoints": [
+            "医師・看護師・事務スタッフの体制",
+            "診療時間と予約制度",
+            "地域連携の状況"
+          ],
+          "keyQuestion": "安定的な診療体制は確保できているか？"
+        }
+      ]
+    },
+    "cases": []
+  },
+  "zeimuExtensions": {
+    "note": "以下はZeimu AI独自の補足情報であり、金融庁原典には含まれません"
+  }
+}
