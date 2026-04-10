@@ -98,3 +98,14 @@ appendix/     # コンセプト・用語集等
 - 本データは参考情報であり、正確性を保証するものではありません
 - 最新の情報は金融庁の原本を必ず確認してください
 - 業種別の数値・指標は調査時点のものです
+
+---
+
+このプロジェクトは [Zeimu AI](https://zeimu.ai) が開発・メンテナンスしています。
+
+### 関連プロジェクト
+
+| プロジェクト | 内容 |
+|------------|------|
+| [open-freee-demo-kit](https://github.com/zeimu-ai/open-freee-demo-kit) | freeeサンドボックスにデモデータを一括投入するCLIツール |
+| [open-journal-rules](https://github.com/zeimu-ai/open-journal-rules) | 日本の税務仕訳ルールのオープンソースデータセット |
